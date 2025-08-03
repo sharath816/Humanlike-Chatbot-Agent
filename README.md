@@ -28,8 +28,9 @@ backend/
 
 ## 🛠️ Setup Instructions
 
-1. Clone the repository.
-2. Create a `.env` file and add your Gemini API key:
+1. ## Clone the repository.
+
+2. ## Create a `.env` file and add your Gemini API key:
    ```env
    GEMINI_API_KEY=your_api_key_here
    ```
@@ -40,11 +41,19 @@ backend/
    ```bash
    pip install streamlit google-generativeai python-dotenv fastapi uvicorn redis
    ```
-4. Run the FastAPI app:
+4. ## Run the FastAPI app:
    ```bash
    uvicorn main:app --reload
    ```
 
+5. ## Running the Chatbot Frontend
+
+   Make sure your `.env` file contains a valid `GEMINI_API_KEY`.
+
+   Then run the chatbot UI using:
+
+   ```bash
+   streamlit run app.py
 ## 🧠 Example Prompt Format
 
 ```
@@ -57,4 +66,4 @@ Zia:
 
 ## 📫 Contact
 
-Developed by Sharath M T.
+Developed by Sharath M Talawar.
