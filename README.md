@@ -33,9 +33,12 @@ backend/
    ```env
    GEMINI_API_KEY=your_api_key_here
    ```
-3. Install dependencies:
+3. ## Installation
+
+   Install all required dependencies using:
+
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit google-generativeai python-dotenv fastapi uvicorn redis
    ```
 4. Run the FastAPI app:
    ```bash
