@@ -24,6 +24,8 @@ backend/
 ├── tone/
 │   ├── analyzer.py        # Detects tone from input
 │   └── adapter.py         # Adapts LLM response to detected tone
+streamlit-ui/
+│   └── app.py             # Streamlit implementation for UI
 ```
 
 ##  Setup Instructions
