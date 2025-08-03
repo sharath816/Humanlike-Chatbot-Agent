@@ -2,7 +2,7 @@
 
 Zia is an emotionally intelligent, memory-aware chatbot built using FastAPI and Google's Gemini API. It aims to replicate human-like interactions by understanding user tone, remembering context, and personalizing responses.
 
-## 🔧 Features
+##  Features
 
 - **Emotion Detection**: Adjusts tone based on user emotion.
 - **Memory System**: Recalls previous conversations for context.
@@ -11,7 +11,7 @@ Zia is an emotionally intelligent, memory-aware chatbot built using FastAPI and 
 - **Context Awareness**: Responds contextually using prior messages.
 - **Gemini API**: Uses Google’s Gemini 1.5 model for LLM-based conversation.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 backend/
@@ -26,7 +26,7 @@ backend/
 │   └── adapter.py         # Adapts LLM response to detected tone
 ```
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 1. ## Clone the repository.
 
@@ -54,7 +54,7 @@ backend/
 
    ```bash
    streamlit run app.py
-## 🧠 Example Prompt Format
+##  Example Prompt Format
 
 ```
 You are Zia, a human-like, emotionally intelligent AI chatbot...
@@ -64,6 +64,6 @@ User: What's your name?
 Zia:
 ```
 
-## 📫 Contact
+##  Contact
 
 Developed by Sharath M Talawar.
